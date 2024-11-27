@@ -23,7 +23,7 @@ export default function PostItem(props) {
         </div>
         <div className={styles.content}>
           <h3>{title}</h3>
-          <time datetime="">{formattedDate}</time>
+          <time>{formattedDate}</time>
           <p>{excerpt}</p>
         </div>
       </Link>
